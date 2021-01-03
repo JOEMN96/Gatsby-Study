@@ -1,11 +1,12 @@
 import React from "react";
-import "../../static/app.css";
 import Layout from "../Components/Layout";
 
-export default function Home() {
+function about() {
   return (
     <Layout>
-      <h1>hello World</h1>
+      <h1>About Page</h1>
     </Layout>
   );
 }
+
+export default about;

@@ -1,11 +1,12 @@
 import React from "react";
-import "../../static/app.css";
 import Layout from "../Components/Layout";
 
-export default function Home() {
+function contact() {
   return (
     <Layout>
-      <h1>hello World</h1>
+      <h1>Contact Pages</h1>
     </Layout>
   );
 }
+
+export default contact;
