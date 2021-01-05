@@ -15,5 +15,20 @@ module.exports = {
       age: 17,
     },
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `Images`,
+        path: `${__dirname}/src/Images/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images2`,
+        path: `${__dirname}/src/images2/`,
+      },
+    },
+  ],
 };

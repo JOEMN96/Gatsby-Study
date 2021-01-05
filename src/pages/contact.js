@@ -11,17 +11,16 @@ function contact(props) {
     },
   } = props;
 
-  console.log(author);
-
   return (
     <Layout>
       <h1>Contact Pages</h1>
+      <p>{author}</p>
     </Layout>
   );
 }
 
 export const query = graphql`
-  {
+  query add {
     site {
       meta: siteMetadata {
         author
