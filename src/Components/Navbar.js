@@ -17,6 +17,9 @@ function Navbar() {
         <li>
           <Link to="/graphqlTest">graphQl</Link>
         </li>
+        <li>
+          <Link to="/products">Products</Link>
+        </li>
       </ul>
     </nav>
   );
