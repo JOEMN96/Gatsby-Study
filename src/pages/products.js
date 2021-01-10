@@ -8,7 +8,6 @@ const ComponentName = ({
     allContentfulGatsbyTest: { nodes },
   },
 }) => {
-  console.log(nodes);
   return (
     <Layout>
       <div className="prodaContainer">
@@ -22,7 +21,7 @@ const ComponentName = ({
                 <p>{node.text}</p>
                 <p>$ {node.price}</p>
               </div>
-              <Link className="singleImg__Link" to={`products/${node.slug}`}>
+              <Link className="singleImg__Link" to={`${node.slug}`}>
                 Learn More
               </Link>
             </div>
